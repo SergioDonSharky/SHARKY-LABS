@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sharky Labs - Web3 Development Agency</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-900 text-white">
+    <!-- Header -->
+    <header class="fixed w-full bg-gray-900 bg-opacity-90 z-50">
+        <nav class="container mx-auto px-6 py-4">
+            <div class="flex items-center justify-between">
+                <div class="text-2xl font-bold">🦈 Sharky Labs</div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#servicios" class="hover:text-blue-400">Servicios</a>
+                    <a href="#proyectos" class="hover:text-blue-400">Proyectos</a>
+                    <a href="#contacto" class="hover:text-blue-400">Contacto</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="min-h-screen flex items-center justify-center pt-20 bg-gradient-to-b from-gray-900 to-gray-800">
+        <div class="container mx-auto px-6 text-center">
+            <h1 class="text-5xl md:text-7xl font-bold mb-8">
+                Construyendo el Futuro en Web3
+            </h1>
+            <p class="text-xl md:text-2xl text-gray-300 mb-12">
+                Desarrollo blockchain y DApps para la próxima generación
+            </p>
+            <a href="#contacto" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-full text-lg">
+                Comienza tu proyecto
+            </a>
+        </div>
+    </section>
+
+    <!-- Servicios -->
+    <section id="servicios" class="py-20 bg-gray-800">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center mb-16">Nuestros Servicios</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+                <div class="p-6 bg-gray-700 rounded-lg">
+                    <h3 class="text-2xl font-bold mb-4">Smart Contracts</h3>
+                    <p class="text-gray-300">Desarrollo de contratos inteligentes seguros y eficientes en Ethereum y otras blockchains.</p>
+                </div>
+                <div class="p-6 bg-gray-700 rounded-lg">
+                    <h3 class="text-2xl font-bold mb-4">DApps</h3>
+                    <p class="text-gray-300">Aplicaciones descentralizadas innovadoras con interfaces intuitivas.</p>
+                </div>
+                <div class="p-6 bg-gray-700 rounded-lg">
+                    <h3 class="text-2xl font-bold mb-4">Web3 Integration</h3>
+                    <p class="text-gray-300">Integración de tecnologías blockchain en aplicaciones existentes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos" class="py-20 bg-gray-900">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center mb-16">Proyectos Destacados</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                <div class="bg-gray-800 rounded-lg overflow-hidden">
+                    <img src="/api/placeholder/600/400" alt="Proyecto 1" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold mb-2">DeFi Platform</h3>
+                        <p class="text-gray-300">Plataforma descentralizada de finanzas con staking y farming.</p>
+                    </div>
+                </div>
+                <div class="bg-gray-800 rounded-lg overflow-hidden">
+                    <img src="/api/placeholder/600/400" alt="Proyecto 2" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold mb-2">NFT Marketplace</h3>
+                        <p class="text-gray-300">Mercado de NFTs con funcionalidades de mint y trading.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="py-20 bg-gray-800">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center mb-16">Contacto</h2>
+            <div class="max-w-2xl mx-auto">
+                <form class="space-y-6">
+                    <div>
+                        <label class="block text-sm font-medium mb-2">Nombre</label>
+                        <input type="text" class="w-full p-3 bg-gray-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium mb-2">Email</label>
+                        <input type="email" class="w-full p-3 bg-gray-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium mb-2">Mensaje</label>
+                        <textarea class="w-full p-3 bg-gray-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" rows="4"></textarea>
+                    </div>
+                    <button type="submit" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-lg">
+                        Enviar mensaje
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 py-8">
+        <div class="container mx-auto px-6 text-center text-gray-400">
+            <p>&copy; 2025 Sharky Labs. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
